@@ -23,7 +23,7 @@ client.on("message", (msg) => {
     msg.react("🥰");
   }
   if (msg.content === "hi") {
-    msg.reply("hey there");
+    msg.reply("hey there!!!");
     msg.react("👋");
   }
   if (msg.content === "hey") {
