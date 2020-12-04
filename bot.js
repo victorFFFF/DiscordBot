@@ -1,10 +1,4 @@
 require("dotenv").config();
-
-var express = require("express");
-var app = express();
-
-app.listen("port", process.env.PORT || 3001);
-
 const Discord = require("discord.js");
 const client = new Discord.Client({
   partials: ["MESSAGE"],
